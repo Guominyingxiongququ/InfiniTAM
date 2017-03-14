@@ -248,6 +248,7 @@ static void RenderImage_common(const ITMScene<TVoxel, TIndex> *scene, const ITMP
 
 	switch (type) {
 	case IITMVisualisationEngine::RENDER_COLOUR_FROM_VOLUME:
+		printf("cuda_render_colour_from_volume");
 		renderColour_device<TVoxel, TIndex> <<<gridSize, cudaBlockSize>>>(outRendering, pointsRay, scene->localVBA.GetVoxelBlocks(),
 			scene->index.getIndexData(), imgSize, lightSource);
 		break;
@@ -719,3 +720,4 @@ __global__ void renderColour_device(Vector4u *outRendering, const Vector4f *ptsR
 }
 
 template class ITMLib::Engine::ITMVisualisationEngine_CUDA < ITMVoxel, ITMVoxelIndex > ;
+template class ITMLib::Engine::ITMVisualisationEngine_CUDA < ITMVoxel_s_rgb, ITMVoxelIndex > ;

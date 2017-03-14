@@ -22,18 +22,20 @@ using namespace InfiniTAM::Engine;
 static void CreateDefaultImageSource(ImageSourceEngine* & imageSource, IMUSourceEngine* & imuSource, const char *arg1, const char *arg2, const char *arg3, const char *arg4)
 {
 	const char *calibFile = arg1;
-	const char *filename1 = arg2;
-	const char *filename2 = arg3;
+	const char *filename1 = arg2; //this is the rgb images
+	const char *filename2 = arg3; //this is the depth images
 	const char *filename_imu = arg4;
 
 	printf("using calibration file: %s\n", calibFile);
 
 	if (filename2 != NULL)
 	{
-		printf("using rgb images: %s\nusing depth images: %s\n", filename1, filename2);
+		printf("using rgb images: %s\n using depth images: %s\n", filename1, filename2);
 		if (filename_imu == NULL)
 		{
+			std::cout<<"file_name_imu"<<std::endl;
 			imageSource = new ImageFileReader(calibFile, filename1, filename2);
+
 		}
 		else
 		{
@@ -43,6 +45,7 @@ static void CreateDefaultImageSource(ImageSourceEngine* & imageSource, IMUSource
 		}
 	}
 
+	std::cout<<"finish filename imu"<<std::endl;
 	if (imageSource == NULL)
 	{
 		printf("trying OpenNI device: %s\n", (filename1==NULL)?"<OpenNI default device>":filename1);
@@ -99,6 +102,7 @@ static void CreateDefaultImageSource(ImageSourceEngine* & imageSource, IMUSource
 	if (imageSource->calib.disparityCalib.params == Vector2f(0.0f, 0.0f))
 	{
 		imageSource->calib.disparityCalib.type = ITMDisparityCalib::TRAFO_AFFINE;
+		//imageSource->calib.disparityCalib.params = Vector2f(1.0f/1000.0f, 0.0f);
 		imageSource->calib.disparityCalib.params = Vector2f(1.0f/1000.0f, 0.0f);
 	}
 }
@@ -145,7 +149,9 @@ try
 	}
 
 	ITMLibSettings *internalSettings = new ITMLibSettings();
+	std::cout<<"start getting rgb data and depth data"<<std::endl;
 	ITMMainEngine *mainEngine = new ITMMainEngine(internalSettings, &imageSource->calib, imageSource->getRGBImageSize(), imageSource->getDepthImageSize());
+	std::cout<<"finish getting rgb data and depth data"<<std::endl;
 
 	UIEngine::Instance()->Initialise(argc, argv, imageSource, imuSource, mainEngine, "./Files/Out", internalSettings->deviceType);
 	UIEngine::Instance()->Run();

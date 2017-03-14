@@ -1,0 +1,1 @@
+./InfiniTAM Teddy/calib_real.txt /Teddy/Frames/%04i.ppm /Teddy/Frames/%04i.pgm

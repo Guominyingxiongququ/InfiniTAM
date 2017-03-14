@@ -2,7 +2,8 @@
 
 #include "FileUtils.h"
 
-#include <stdio.h>
+//#include <stdio.h>
+#include<iostream>
 #include <fstream>
 
 #ifdef USE_LIBPNG
@@ -329,6 +330,7 @@ bool ReadImageFromFile(ITMUChar4Image* image, const char* fileName)
 	int xsize, ysize;
 	FormatType type;
 	bool binary;
+	cout<<fileName<<endl;
 	FILE *f = fopen(fileName, "rb");
 	if (f == NULL) return false;
 	type = pnm_readheader(f, &xsize, &ysize, &binary);

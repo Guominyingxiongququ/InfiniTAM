@@ -111,3 +111,4 @@ __global__ void meshScene_device(ITMMesh::Triangle *triangles, unsigned int *noT
 }
 
 template class ITMLib::Engine::ITMMeshingEngine_CUDA<ITMVoxel, ITMVoxelIndex>;
+template class ITMLib::Engine::ITMMeshingEngine_CUDA<ITMVoxel_s_rgb, ITMVoxelIndex>;

@@ -389,7 +389,9 @@ _CPU_AND_GPU_CODE_ inline void processPixelColour(DEVICEPTR(Vector4u) &outRender
 
 	computeNormalAndAngle<TVoxel, TIndex>(foundPoint, point, voxelData, voxelIndex, lightSource, outNormal, angle);
 
-	if (foundPoint) drawPixelColour<TVoxel, TIndex>(outRendering, point, voxelData, voxelIndex);
+	if (foundPoint){
+		drawPixelColour<TVoxel, TIndex>(outRendering, point, voxelData, voxelIndex);
+	}
 	else outRendering = Vector4u((uchar)0);
 }
 

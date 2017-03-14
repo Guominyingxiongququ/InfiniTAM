@@ -111,6 +111,7 @@ struct ComputeUpdatedVoxelInfo<true, TVoxel> {
 	{
 		float eta = computeUpdatedVoxelDepthInfo(voxel, pt_model, M_d, projParams_d, mu, maxW, depth, imgSize_d);
 		if ((eta > mu) || (fabs(eta / mu) > 0.25f)) return;
+		// what does this mean?
 		computeUpdatedVoxelColorInfo(voxel, pt_model, M_rgb, projParams_rgb, mu, maxW, eta, rgb, imgSize_rgb);
 	}
 };

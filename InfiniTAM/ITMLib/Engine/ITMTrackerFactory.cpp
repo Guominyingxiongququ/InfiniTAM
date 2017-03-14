@@ -3,3 +3,4 @@
 #include "ITMTrackerFactory.h"
 
 template class ITMLib::Engine::ITMTrackerFactory<ITMVoxel, ITMVoxelIndex>;
+template class ITMLib::Engine::ITMTrackerFactory<ITMVoxel_s_rgb, ITMVoxelIndex>;

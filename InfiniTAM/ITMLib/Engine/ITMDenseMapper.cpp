@@ -71,3 +71,4 @@ void ITMDenseMapper<TVoxel,TIndex>::UpdateVisibleList(const ITMView *view, const
 }
 
 template class ITMLib::Engine::ITMDenseMapper<ITMVoxel, ITMVoxelIndex>;
+template class ITMLib::Engine::ITMDenseMapper<ITMVoxel_s_rgb, ITMVoxelIndex>;

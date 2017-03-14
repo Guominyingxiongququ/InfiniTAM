@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>InfiniTAM@InfiniTAM</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j8</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM_cli</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM_cli/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM_cli/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM_cli/Source Files/InfiniTAM_cli.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/InfiniTAM_cli.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM_cli/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM_cli/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM_cli/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM_cli/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM/Source Files/InfiniTAM.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/InfiniTAM.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] InfiniTAM/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils//Vector.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ORUtils/Vector.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils//Matrix.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ORUtils/Matrix.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils//Cholesky.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ORUtils/Cholesky.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils//MathUtils.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ORUtils/MathUtils.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils//Image.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ORUtils/Image.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils//CUDADefines.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ORUtils/CUDADefines.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils//LexicalCast.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ORUtils/LexicalCast.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils//MemoryBlock.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ORUtils/MemoryBlock.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils//MemoryBlockPersister.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ORUtils/MemoryBlockPersister.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils//PlatformIndependence.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ORUtils/PlatformIndependence.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils/Source Files/Dummy.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ORUtils/Dummy.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ORUtils/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib//ITMLib.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/ITMLib.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Object Files/ITMLib_generated_ITMColorTracker_CUDA.cu.o</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Object Files/ITMLib_generated_ITMDepthTracker_CUDA.cu.o</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Object Files/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Object Files/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Object Files/ITMLib_generated_ITMRenTracker_CUDA.cu.o</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Object Files/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Object Files/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Object Files/ITMLib_generated_ITMViewBuilder_CUDA.cu.o</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Object Files/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Object Files/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMColorTracker.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMColorTracker.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMDenseMapper.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMDenseMapper.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMDepthTracker.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMDepthTracker.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMWeightedICPTracker.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMWeightedICPTracker.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMIMUTracker.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMIMUTracker.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMMainEngine.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMMainEngine.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMRenTracker.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMRenTracker.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMTrackerFactory.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMTrackerFactory.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMTrackingController.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMTrackingController.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMVisualisationEngine.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMVisualisationEngine.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMColorTracker.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMColorTracker.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMCompositeTracker.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMCompositeTracker.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMDenseMapper.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMDenseMapper.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMDepthTracker.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMDepthTracker.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMWeightedICPTracker.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMWeightedICPTracker.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMIMUCalibrator.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMIMUCalibrator.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMIMUTracker.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMIMUTracker.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMLowLevelEngine.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMLowLevelEngine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMMainEngine.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMMainEngine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMRenTracker.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMRenTracker.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMSceneReconstructionEngine.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMSceneReconstructionEngine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMSwappingEngine.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMSwappingEngine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMTracker.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMTracker.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMTrackerFactory.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMTrackerFactory.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMTrackingController.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMTrackingController.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMViewBuilder.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMViewBuilder.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMVisualisationEngine.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMVisualisationEngine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Engine/ITMMeshingEngine.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Engine/ITMMeshingEngine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMPose.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMPose.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMDisparityCalib.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMDisparityCalib.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMExtrinsics.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMExtrinsics.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMGlobalCache.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMGlobalCache.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMImageHierarchy.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMImageHierarchy.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMIntrinsics.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMIntrinsics.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMLocalVBA.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMLocalVBA.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMPlainVoxelArray.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMPlainVoxelArray.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMPointCloud.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMPointCloud.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMPose.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMPose.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMRGBDCalib.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMRGBDCalib.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMScene.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMScene.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMSceneHierarchyLevel.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMSceneHierarchyLevel.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMSceneParams.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMSceneParams.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMTemplatedHierarchyLevel.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMTemplatedHierarchyLevel.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMTrackingState.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMTrackingState.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMView.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMView.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMViewIMU.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMViewIMU.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMViewHierarchyLevel.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMViewHierarchyLevel.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMRenderState.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMRenderState.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMRenderState_VH.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMRenderState_VH.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMVoxelBlockHash.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMVoxelBlockHash.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMIMUMeasurement.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMIMUMeasurement.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Objects/ITMMesh.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Objects/ITMMesh.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Utils</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Utils/ITMCalibIO.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Utils/ITMCalibIO.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Utils/ITMLibSettings.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Utils/ITMLibSettings.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Utils/ITMCalibIO.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Utils/ITMCalibIO.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Utils/ITMLibDefines.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Utils/ITMLibDefines.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Utils/ITMLibSettings.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Utils/ITMLibSettings.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ITMLib/Utils/ITMMath.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/Utils/ITMMath.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Utils</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Utils/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Utils/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Utils/Source Files/FileUtils.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Utils/FileUtils.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Utils/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Utils/Header Files/FileUtils.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Utils/FileUtils.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Utils/Header Files/NVTimer.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Utils/NVTimer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Utils/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Utils/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Utils/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Source Files/ImageSourceEngine.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/ImageSourceEngine.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Source Files/IMUSourceEngine.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/IMUSourceEngine.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Source Files/Kinect2Engine.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/Kinect2Engine.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Source Files/OpenNIEngine.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/OpenNIEngine.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Source Files/PicoFlexxEngine.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/PicoFlexxEngine.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Source Files/LibUVCEngine.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/LibUVCEngine.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Source Files/UIEngine.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/UIEngine.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Source Files/CLIEngine.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/CLIEngine.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Source Files/RealSenseEngine.cpp</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/RealSenseEngine.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Header Files/ImageSourceEngine.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/ImageSourceEngine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Header Files/IMUSourceEngine.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/IMUSourceEngine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Header Files/Kinect2Engine.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/Kinect2Engine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Header Files/OpenNIEngine.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/OpenNIEngine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Header Files/PicoFlexxEngine.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/PicoFlexxEngine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Header Files/LibUVCEngine.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/LibUVCEngine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Header Files/UIEngine.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/UIEngine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Header Files/CLIEngine.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/CLIEngine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Header Files/RealSenseEngine.h</name>
+			<type>1</type>
+			<location>/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/RealSenseEngine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Engine/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

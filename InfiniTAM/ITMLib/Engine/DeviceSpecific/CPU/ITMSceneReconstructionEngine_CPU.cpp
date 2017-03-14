@@ -369,3 +369,4 @@ void ITMSceneReconstructionEngine_CPU<TVoxel, ITMPlainVoxelArray>::IntegrateInto
 }
 
 template class ITMLib::Engine::ITMSceneReconstructionEngine_CPU<ITMVoxel, ITMVoxelIndex>;
+template class ITMLib::Engine::ITMSceneReconstructionEngine_CPU<ITMVoxel_s_rgb, ITMVoxelIndex>;

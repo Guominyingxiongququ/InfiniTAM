@@ -2,14 +2,21 @@
 
 #include "ITMDepthTracker.h"
 #include "../../ORUtils/Cholesky.h"
+//#include "../Objects/groundTruthPose.h"
 
 #include <math.h>
-
+#include <iostream>
 using namespace ITMLib::Engine;
 
 ITMDepthTracker::ITMDepthTracker(Vector2i imgSize, TrackerIterationType *trackingRegime, int noHierarchyLevels, int noICPRunTillLevel, float distThresh,
 	float terminationThreshold, const ITMLowLevelEngine *lowLevelEngine, MemoryDeviceType memoryType)
 {
+    myfile.open("/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Files/Teddy/kitti_pose.txt");
+    if(myfile.is_open())
+    {
+    	std::cout<<"open file========================="<<std::endl;
+    }
+//	this->myPose = new GroundTruthPose("/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Files/Teddy/kitti_pose.txt");
 	viewHierarchy = new ITMImageHierarchy<ITMTemplatedHierarchyLevel<ITMFloatImage> >(imgSize, trackingRegime, noHierarchyLevels, memoryType, true);
 	sceneHierarchy = new ITMImageHierarchy<ITMSceneHierarchyLevel>(imgSize, trackingRegime, noHierarchyLevels, memoryType, true);
 
@@ -41,6 +48,7 @@ ITMDepthTracker::~ITMDepthTracker(void)
 
 	delete[] this->noIterationsPerLevel;
 	delete[] this->distThresh;
+	this->myfile.close();
 }
 
 void ITMDepthTracker::SetEvaluationData(ITMTrackingState *trackingState, const ITMView *view)
@@ -196,5 +204,78 @@ void ITMDepthTracker::TrackCamera(ITMTrackingState *trackingState, const ITMView
 			if (HasConverged(step)) break;
 		}
 	}
+/* ground truth
+	std::cout<<"Tracking Pose"<<std::endl<<trackingState->pose_d->GetInvM()<<std::endl;
+	double poseValue[3][4];
+	Matrix4f currentPose = * (new Matrix4f());
+	Matrix4f kinectTrans = Matrix4f();
+	float kinectTransVal[16] = {1.0, 0.0 , 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0};
+	for(int i=0;i<16;i++)
+	{
+		kinectTrans.m[i] = kinectTransVal[i];
+	}
+	Matrix4f kinectTransInv = Matrix4f();
+	kinectTrans.inv(kinectTransInv);
+	std::cout<<"inverse kinect pose"<<kinectTransInv<<std::endl;
+	Matrix4f transPose = Matrix4f();
+	Matrix4f invPose = Matrix4f();
+	Matrix4f inversePose = Matrix4f();
+	Matrix4f transInvPose = Matrix4f();
+	std::cout<<"GroundTruth Tracking Pose"<<std::endl;
+	for(int i=0;i<3;i++)
+	{
+		for(int j=0;j<4;j++)
+		{
+			myfile>>poseValue[i][j];
+			currentPose.m[i*4+j]= poseValue[i][j];
+			std::cout<<poseValue[i][j]<<" ";
+		}
+		std::cout<<std::endl;
+	}
+	currentPose.m[12] = 0.0;
+	currentPose.m[13] = 0.0;
+	currentPose.m[14] = 0.0;
+	currentPose.m[15] = 1.0;
+
+	transPose = kinectTrans* currentPose * kinectTransInv;
+
+
+//	for(int i=0;i<3;i++)
+//	{
+//		for(int j=0;j<3;j++)
+//		{
+//			inversePose.m[4*j+i] = transPose.m[4*i+j];
+//		}
+//	}
+//
+//	for(int i=0;i<3;i++)
+//	{
+//		inversePose.m[4*i+3] = 0.0;
+//		for(int j=0;j<3;j++)
+//		{
+//			inversePose.m[4*i+3] = inversePose.m[4*i+3] - transPose.m[4*i+3]*inversePose.m[4*i+j];
+//		}
+//	}
+//	inversePose.m[12] = 0.0;
+//	inversePose.m[13] = 0.0;
+//	inversePose.m[14] = 0.0;
+//	inversePose.m[15] = 1.0;
+//
+
+	transPose.inv(invPose);
+	std::cout<<invPose<<std::endl;
+	for(int i=0;i<4;i++)
+	{
+		for(int j=0;j<4;j++)
+		{
+			transInvPose.m[4*i+j] = invPose.m[4*j+i];
+		}
+	}
+	trackingState->pose_d->SetM(transInvPose);
+	*/
+	trackingState->pose_d->SetM(trackingState->pose_d->GetM());
+    std::cout<<"Tracking Pose"<<std::endl<<trackingState->pose_d->GetM()<<std::endl;
+//	Matrix4f * currentPose = &(this->myPose.setPose());
+//	trackingState->pose_d->SetM(* currentPose);
 }
 

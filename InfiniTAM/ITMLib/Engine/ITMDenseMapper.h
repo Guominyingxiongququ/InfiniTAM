@@ -27,6 +27,7 @@ namespace ITMLib
 			ITMSwappingEngine<TVoxel,TIndex> *swappingEngine;
 
 		public:
+//			void ResetScene(ITMScene<TVoxel,TIndex> *scene);
 			void ResetScene(ITMScene<TVoxel,TIndex> *scene);
 
 			/// Process a single frame
@@ -42,6 +43,7 @@ namespace ITMLib
 			explicit ITMDenseMapper(const ITMLibSettings *settings);
 			~ITMDenseMapper();
 		};
+
 	}
 }
 

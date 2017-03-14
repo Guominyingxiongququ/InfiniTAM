@@ -304,4 +304,4 @@ static inline bool minimizeLM(const ITMRenTracker<TVoxel,TIndex> & tracker, ITMP
 }
 
 template class ITMLib::Engine::ITMRenTracker<ITMVoxel, ITMVoxelIndex>;
-
+template class ITMLib::Engine::ITMRenTracker<ITMVoxel_s_rgb, ITMVoxelIndex>;

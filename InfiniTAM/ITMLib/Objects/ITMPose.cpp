@@ -313,6 +313,7 @@ Matrix4f ITMPose::GetInvM(void) const
 	return ret;
 }
 
+
 void ITMPose::SetInvM(const Matrix4f & invM)
 {
 	invM.inv(M);

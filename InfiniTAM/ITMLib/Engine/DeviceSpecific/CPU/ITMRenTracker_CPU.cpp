@@ -102,3 +102,4 @@ void ITMRenTracker_CPU<TVoxel,TIndex>::UnprojectDepthToCam(ITMFloatImage *depth,
 }
 
 template class ITMLib::Engine::ITMRenTracker_CPU<ITMVoxel, ITMVoxelIndex>;
+template class ITMLib::Engine::ITMRenTracker_CPU<ITMVoxel_s_rgb, ITMVoxelIndex>;

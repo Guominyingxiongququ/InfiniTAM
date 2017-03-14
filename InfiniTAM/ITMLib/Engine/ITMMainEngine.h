@@ -55,11 +55,12 @@ namespace ITMLib
 			ITMLowLevelEngine *lowLevelEngine;
 			IITMVisualisationEngine *visualisationEngine;
 
-			ITMMeshingEngine<ITMVoxel, ITMVoxelIndex> *meshingEngine;
+			ITMMeshingEngine<ITMVoxel_s_rgb, ITMVoxelIndex> *meshingEngine;
 			ITMMesh *mesh;
 
 			ITMViewBuilder *viewBuilder;		
-			ITMDenseMapper<ITMVoxel,ITMVoxelIndex> *denseMapper;
+//			ITMDenseMapper<ITMVoxel,ITMVoxelIndex> *denseMapper;
+			ITMDenseMapper<ITMVoxel_s_rgb,ITMVoxelIndex> *denseMapper;
 			ITMTrackingController *trackingController;
 
 			ITMTracker *tracker;
@@ -68,7 +69,7 @@ namespace ITMLib
 			ITMView *view;
 			ITMTrackingState *trackingState;
 
-			ITMScene<ITMVoxel, ITMVoxelIndex> *scene;
+			ITMScene<ITMVoxel_s_rgb, ITMVoxelIndex> *scene;
 			ITMRenderState *renderState_live;
 			ITMRenderState *renderState_freeview;
 
@@ -91,7 +92,7 @@ namespace ITMLib
 			ITMTrackingState* GetTrackingState(void) { return trackingState; }
 
 			/// Gives access to the internal world representation
-			ITMScene<ITMVoxel, ITMVoxelIndex>* GetScene(void) { return scene; }
+			ITMScene<ITMVoxel_s_rgb, ITMVoxelIndex>* GetScene(void) { return scene; }
 
 			/// Process a frame with rgb and depth images and optionally a corresponding imu measurement
 			void ProcessFrame(ITMUChar4Image *rgbImage, ITMShortImage *rawDepthImage, ITMIMUMeasurement *imuMeasurement = NULL);

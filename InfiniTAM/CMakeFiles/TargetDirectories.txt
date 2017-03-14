@@ -1,0 +1,6 @@
+/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Engine/CMakeFiles/Engine.dir
+/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/CMakeFiles/InfiniTAM_cli.dir
+/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/Utils/CMakeFiles/Utils.dir
+/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/CMakeFiles/InfiniTAM.dir
+/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ORUtils/CMakeFiles/ORUtils.dir
+/home/xiyu/Desktop/project/InfiniTAM/InfiniTAM/ITMLib/CMakeFiles/ITMLib.dir

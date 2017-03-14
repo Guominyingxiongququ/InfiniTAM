@@ -7,11 +7,13 @@
 #include "../Objects/ITMImageHierarchy.h"
 #include "../Objects/ITMTemplatedHierarchyLevel.h"
 #include "../Objects/ITMSceneHierarchyLevel.h"
+//#include "../Objects/groundTruthPose.h"
 
 #include "../Engine/ITMTracker.h"
 #include "../Engine/ITMLowLevelEngine.h"
+#include <fstream>
 
-using namespace ITMLib::Objects;
+//using namespace ITMLib::Objects;
 
 namespace ITMLib
 {
@@ -52,10 +54,12 @@ namespace ITMLib
 			Matrix4f scenePose;
 			ITMSceneHierarchyLevel *sceneHierarchyLevel;
 			ITMTemplatedHierarchyLevel<ITMFloatImage> *viewHierarchyLevel;
+//			GroundTruthPose myPose;
 
 			virtual int ComputeGandH(float &f, float *nabla, float *hessian, Matrix4f approxInvPose) = 0;
 
 		public:
+			std::ifstream myfile;
 			void TrackCamera(ITMTrackingState *trackingState, const ITMView *view);
 
 			ITMDepthTracker(Vector2i imgSize, TrackerIterationType *trackingRegime, int noHierarchyLevels, int noICPRunTillLevel, float distThresh,

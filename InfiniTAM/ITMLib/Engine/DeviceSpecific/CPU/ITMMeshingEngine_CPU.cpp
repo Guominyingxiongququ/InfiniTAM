@@ -70,3 +70,4 @@ void ITMMeshingEngine_CPU<TVoxel, ITMPlainVoxelArray>::MeshScene(ITMMesh *mesh, 
 {}
 
 template class ITMLib::Engine::ITMMeshingEngine_CPU<ITMVoxel, ITMVoxelIndex>;
+template class ITMLib::Engine::ITMMeshingEngine_CPU<ITMVoxel_s_rgb, ITMVoxelIndex>;

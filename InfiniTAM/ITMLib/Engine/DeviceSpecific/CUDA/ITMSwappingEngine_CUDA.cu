@@ -294,3 +294,4 @@ __global__ void integrateOldIntoActiveData_device(TVoxel *localVBA, ITMHashSwapS
 }
 
 template class ITMLib::Engine::ITMSwappingEngine_CUDA<ITMVoxel, ITMVoxelIndex>;
+template class ITMLib::Engine::ITMSwappingEngine_CUDA<ITMVoxel_s_rgb, ITMVoxelIndex>;

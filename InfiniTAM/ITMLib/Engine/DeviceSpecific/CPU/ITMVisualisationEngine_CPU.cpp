@@ -462,3 +462,4 @@ static int RenderPointCloud(Vector4u *outRendering, Vector4f *locations, Vector4
 }
 
 template class ITMLib::Engine::ITMVisualisationEngine_CPU<ITMVoxel, ITMVoxelIndex>;
+template class ITMLib::Engine::ITMVisualisationEngine_CPU<ITMVoxel_s_rgb, ITMVoxelIndex>;

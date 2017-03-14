@@ -32,6 +32,7 @@ void ITMTrackingController::Prepare(ITMTrackingState *trackingState, const ITMVi
 
 		if (trackingState->requiresFullRendering)
 		{
+			printf("%s","requiresFullRendering");
 			visualisationEngine->CreateICPMaps(view, trackingState, renderState);
 			trackingState->pose_pointCloud->SetFrom(trackingState->pose_d);
 			if (trackingState->age_pointCloud==-1) trackingState->age_pointCloud=-2;
